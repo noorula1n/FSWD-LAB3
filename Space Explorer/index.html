@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Space Explorer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+            <i class="fa-solid fa-rocket"></i> NOVA
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto gap-lg-3">
+                <li class="nav-item"><a class="nav-link" href="#explore">Explore</a></li>
+                <li class="nav-item"><a class="nav-link" href="#missions">Missions</a></li>
+                <li class="nav-item"><a class="nav-link" href="#planets">Planets</a></li>
+                <li class="nav-item"><a class="nav-link" href="#crew">Crew</a></li>
+                <li class="nav-item"><a class="nav-link" href="#join">Join Mission</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="hero-space" id="explore">
+    <div class="container">
+        <div class="row align-items-center min-vh-100">
+            <div class="col-lg-6">
+                <p class="space-label">WELCOME TO THE FUTURE</p>
+                <h1>EXPLORE THE <span>UNKNOWN.</span></h1>
+                <p class="hero-description">
+                    Discover distant worlds, explore unexplored galaxies
+                    and become part of humanity's next great adventure.
+                </p>
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="#missions" class="btn btn-space">
+                        Explore Missions <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#planets" class="btn btn-outline-light">
+                        Discover Planets
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                <div class="planet-container">
+                    <div class="planet"></div>
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="stats-section">
+    <div class="container">
+        <div class="row g-3 text-center">
+            <div class="col-6 col-lg-3">
+                <div class="stat-box">
+                    <h2>248</h2>
+                    <p>Planets Discovered</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="stat-box">
+                    <h2>36</h2>
+                    <p>Active Missions</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="stat-box">
+                    <h2>12.8K</h2>
+                    <p>Light Years</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="stat-box">
+                    <h2>98%</h2>
+                    <p>Mission Success</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="missions py-5" id="missions">
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <p class="space-label">ACTIVE MISSIONS</p>
+            <h2>Current <span>Expeditions</span></h2>
+            <p class="section-text">
+                Explore the missions currently traveling through deep space.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="mission-card h-100">
+                    <div class="mission-number">01</div>
+                    <i class="fa-solid fa-shuttle-space mission-icon"></i>
+                    <h3>ORION IX</h3>
+                    <p>Exploring the outer regions of the Orion sector.</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 76%"></div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <small>Mission Progress</small>
+                        <small>76%</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="mission-card h-100">
+                    <div class="mission-number">02</div>
+                    <i class="fa-solid fa-satellite mission-icon"></i>
+                    <h3>NEBULA-7</h3>
+                    <p>Studying an unknown nebula beyond our galaxy.</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 91%"></div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <small>Mission Progress</small>
+                        <small>91%</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="mission-card h-100">
+                    <div class="mission-number">03</div>
+                    <i class="fa-solid fa-globe mission-icon"></i>
+                    <h3>ARES IV</h3>
+                    <p>Searching for signs of life on a distant planet.</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 48%"></div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <small>Mission Progress</small>
+                        <small>48%</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="planet-section py-5" id="planets">
+    <div class="container py-5">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <div class="planet-display">
+                    <div class="big-planet"></div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <p class="space-label">FEATURED PLANET</p>
+                <h2>KEPLER-452B</h2>
+                <p class="section-text">
+                    A fascinating exoplanet located approximately 1,400
+                    light years away. Scientists believe it may contain
+                    conditions suitable for life.
+                </p>
+
+                <div class="row g-3 mt-3">
+                    <div class="col-6">
+                        <div class="planet-info">
+                            <small>Distance</small>
+                            <strong>1,400 LY</strong>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="planet-info">
+                            <small>Temperature</small>
+                            <strong>265 K</strong>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="planet-info">
+                            <small>Gravity</small>
+                            <strong>1.05 G</strong>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="planet-info">
+                            <small>Discovery</small>
+                            <strong>2015</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="crew py-5" id="crew">
+    <div class="container py-5 text-center">
+        <p class="space-label">MISSION COMMANDER</p>
+        <h2>Meet The <span>Crew</span></h2>
+
+        <div class="commander-card mx-auto mt-5">
+            <div class="commander-icon">
+                <i class="fa-solid fa-user-astronaut"></i>
+            </div>
+            <h3>NOOR UL AIN</h3>
+            <p>Commander & Lead Explorer</p>
+            <p class="section-text">
+                Leading the next generation of explorers beyond the known
+                boundaries of human space travel.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="join py-5" id="join">
+    <div class="container py-5 text-center">
+        <p class="space-label">YOUR ADVENTURE AWAITS</p>
+        <h2>Ready To Explore?</h2>
+        <p class="section-text mx-auto">
+            Join thousands of explorers who are helping humanity discover
+            what lies beyond the stars.
+        </p>
+        <button class="btn btn-space mt-3">
+            Join The Mission <i class="fa-solid fa-rocket"></i>
+        </button>
+    </div>
+</section>
+
+<footer class="py-4">
+    <div class="container d-flex justify-content-between align-items-center">
+        <p class="mb-0">© 2026 NOVA Space Explorer</p>
+        <div class="d-flex gap-3">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

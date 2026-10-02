@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background: #202020;
+    font-family: Arial, sans-serif;
+}
+
+.timetable-wrapper {
+    max-width: 1400px;
+    margin: 20px auto;
+    background: white;
+    padding: 12px;
+    border: 1px solid #333;
+}
+
+.timetable-header {
+    position: relative;
+    text-align: center;
+    padding: 5px 0 10px;
+}
+
+.timetable-header h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.university {
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    font-size: 11px;
+}
+
+.timetable {
+    width: 100%;
+    table-layout: fixed;
+    margin: 0;
+    border-color: #222;
+}
+
+.timetable th,
+.timetable td {
+    border: 1px solid #222 !important;
+    padding: 4px;
+    text-align: center;
+    vertical-align: middle;
+    height: 80px;
+    font-size: 9px;
+}
+
+.timetable thead th {
+    height: 45px;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 1.2;
+    background: #fff;
+}
+
+.timetable thead small {
+    font-size: 6px;
+}
+
+.day-heading {
+    width: 70px;
+}
+
+.timetable .day {
+    width: 70px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.timetable td small {
+    display: block;
+    font-size: 6px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.timetable td strong {
+    display: block;
+    font-size: 9px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.timetable td {
+    background: #fff;
+}
+
+.lab-cell {
+    font-size: 10px !important;
+}
+
+.lab-cell strong {
+    font-size: 11px !important;
+}
+
+.footer-note {
+    font-size: 8px;
+    padding: 4px 0 0;
+}
+
+.footer-note span {
+    float: right;
+}
+
+@media (max-width: 900px) {
+    .timetable-wrapper {
+        min-width: 1100px;
+    }
+
+    body {
+        overflow-x: auto;
+    }
+}

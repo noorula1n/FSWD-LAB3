@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu-item {
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background-color: #f0f2f5;
+}
+
+.menu-item i {
+    width: 25px;
+    color: #1877f2;
+}
+
+.profile-circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #1877f2, #6ea8fe);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.post-image {
+    height: 260px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.contact {
+    padding: 12px 0;
+}
+
+.online {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #22c55e;
+    border-radius: 50%;
+    margin-right: 10px;
+}

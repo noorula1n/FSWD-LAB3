@@ -1,0 +1,241 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #111827;
+}
+
+.navbar {
+    background: rgba(10, 15, 35, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+    letter-spacing: 3px;
+}
+
+.nav-link {
+    color: #d1d5db !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #60a5fa !important;
+}
+
+.hero {
+    background: linear-gradient(135deg, #eef2ff, #ffffff);
+}
+
+.hero h1 span {
+    color: #2563eb;
+}
+
+.letter-spacing {
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.profile-box {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 100px;
+    box-shadow: 0 25px 60px rgba(37, 99, 235, 0.3);
+}
+
+.section-light {
+    background-color: #f8fafc;
+}
+
+.about-card {
+    min-height: 330px;
+    border-radius: 25px;
+    padding: 45px;
+    background: linear-gradient(135deg, #111827, #312e81);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.about-card i {
+    font-size: 55px;
+    margin-bottom: auto;
+    color: #60a5fa;
+}
+
+.about-card h2 {
+    font-size: 30px;
+}
+
+.about-card p {
+    color: #cbd5e1;
+}
+
+.info-box {
+    padding: 18px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: white;
+}
+
+.info-box i {
+    color: #2563eb;
+    font-size: 22px;
+}
+
+.info-box small,
+.info-box strong {
+    display: block;
+}
+
+.info-box small {
+    color: #6b7280;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.skill-card {
+    padding: 30px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.skill-card > i {
+    color: #2563eb;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.skill-card h4 {
+    font-weight: bold;
+}
+
+.skill-card p {
+    color: #6b7280;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.skill-card .progress {
+    height: 5px;
+}
+
+.project-card {
+    padding: 30px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(37, 99, 235, 0.12);
+}
+
+.project-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #dbeafe, #ede9fe);
+    color: #2563eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #6b7280;
+    line-height: 1.7;
+}
+
+.project-link {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+}
+
+.social-links a {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #111827;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: #2563eb;
+    transform: translateY(-4px);
+}
+
+.contact-form {
+    padding: 30px;
+    background: #f8fafc;
+    border-radius: 20px;
+}
+
+.form-control {
+    border: 1px solid #dbe1ea;
+    padding: 14px;
+}
+
+.form-control:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+footer {
+    background: #111827;
+    color: #9ca3af;
+    font-size: 13px;
+}
+
+@media (max-width: 768px) {
+    .profile-box {
+        width: 220px;
+        height: 220px;
+        font-size: 70px;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .about-card {
+        min-height: 280px;
+    }
+}

@@ -1,0 +1,312 @@
+body {
+    background: #030712;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: rgba(3, 7, 18, 0.9);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #1e293b;
+}
+
+.navbar-brand {
+    letter-spacing: 3px;
+    color: white !important;
+}
+
+.nav-link {
+    color: #cbd5e1 !important;
+}
+
+.nav-link:hover {
+    color: #a78bfa !important;
+}
+
+.hero-space {
+    min-height: 100vh;
+    background: radial-gradient(circle at 75% 45%, #312e81, #0f172a 35%, #030712 70%);
+    position: relative;
+    overflow: hidden;
+}
+
+.space-label {
+    color: #a78bfa;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hero-space h1 {
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 20px 0;
+}
+
+.hero-space h1 span,
+.missions h2 span,
+.planet-section h2,
+.crew h2 span {
+    color: #a78bfa;
+}
+
+.hero-description,
+.section-text {
+    color: #94a3b8;
+    line-height: 1.8;
+}
+
+.hero-description {
+    max-width: 550px;
+}
+
+.btn-space {
+    color: white;
+    border: none;
+    background: linear-gradient(90deg, #7c3aed, #2563eb);
+    padding: 12px 22px;
+    border-radius: 25px;
+}
+
+.btn-space:hover {
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(124, 58, 237, 0.4);
+}
+
+.planet-container {
+    height: 450px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.planet {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #c4b5fd, #7c3aed 35%, #312e81 70%, #111827);
+    box-shadow: 0 0 80px #7c3aed;
+    position: relative;
+    z-index: 2;
+}
+
+.orbit {
+    position: absolute;
+    border: 1px solid rgba(167, 139, 250, 0.5);
+    border-radius: 50%;
+    transform: rotate(-25deg);
+}
+
+.orbit-one {
+    width: 420px;
+    height: 150px;
+}
+
+.orbit-two {
+    width: 500px;
+    height: 190px;
+    transform: rotate(35deg);
+}
+
+.stats-section {
+    padding: 25px 0;
+    background: #070b18;
+    border-top: 1px solid #1e293b;
+    border-bottom: 1px solid #1e293b;
+}
+
+.stat-box {
+    padding: 15px;
+}
+
+.stat-box h2 {
+    color: #a78bfa;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.stat-box p {
+    color: #64748b;
+    margin: 0;
+    font-size: 13px;
+}
+
+.missions {
+    background: #030712;
+}
+
+.missions h2,
+.planet-section h2,
+.crew h2,
+.join h2 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.mission-card {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(145deg, #111827, #080d18);
+    border: 1px solid #1e293b;
+    border-radius: 18px;
+    transition: 0.3s;
+}
+
+.mission-card:hover {
+    transform: translateY(-8px);
+    border-color: #7c3aed;
+    box-shadow: 0 20px 40px rgba(124, 58, 237, 0.15);
+}
+
+.mission-number {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: #334155;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.mission-icon {
+    font-size: 35px;
+    color: #a78bfa;
+    margin-bottom: 20px;
+}
+
+.mission-card h3 {
+    font-size: 22px;
+}
+
+.mission-card p {
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+.progress {
+    height: 5px;
+    background: #1e293b;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, #7c3aed, #38bdf8);
+}
+
+.mission-card small {
+    color: #64748b;
+}
+
+.planet-section {
+    background: #070b18;
+}
+
+.planet-display {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-planet {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #f5d0fe, #c026d3 30%, #581c87 65%, #111827);
+    box-shadow: 0 0 100px rgba(192, 38, 211, 0.5);
+}
+
+.planet-info {
+    padding: 18px;
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+    background: #0b1120;
+}
+
+.planet-info small,
+.planet-info strong {
+    display: block;
+}
+
+.planet-info small {
+    color: #64748b;
+    margin-bottom: 5px;
+}
+
+.planet-info strong {
+    color: #e2e8f0;
+}
+
+.crew {
+    background: #030712;
+}
+
+.commander-card {
+    max-width: 500px;
+    padding: 40px;
+    background: linear-gradient(145deg, #111827, #080d18);
+    border: 1px solid #334155;
+    border-radius: 20px;
+}
+
+.commander-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #7c3aed, #2563eb);
+    font-size: 40px;
+}
+
+.commander-card h3 {
+    letter-spacing: 2px;
+}
+
+.commander-card > p {
+    color: #94a3b8;
+}
+
+.join {
+    background: radial-gradient(circle at center, #172554, #030712 65%);
+}
+
+.join .section-text {
+    max-width: 600px;
+}
+
+footer {
+    background: #020617;
+    color: #64748b;
+    border-top: 1px solid #1e293b;
+}
+
+@media (max-width: 768px) {
+    .hero-space h1 {
+        font-size: 45px;
+    }
+
+    .planet {
+        width: 210px;
+        height: 210px;
+    }
+
+    .orbit-one {
+        width: 300px;
+    }
+
+    .orbit-two {
+        width: 350px;
+    }
+
+    .missions h2,
+    .planet-section h2,
+    .crew h2,
+    .join h2 {
+        font-size: 32px;
+    }
+}
